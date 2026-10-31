@@ -1,0 +1,42 @@
+export const initialTasks = [
+  {
+    id: "1",
+    title: "Design dashboard",
+    description: "Create the initial dashboard layout.",
+    priority: "high",
+    status: "todo",
+    dueDate: "2026-11-02",
+  },
+  {
+    id: "2",
+    title: "Setup project",
+    description: "Configure project dependencies.",
+    priority: "low",
+    status: "todo",
+    dueDate: "2026-11-03",
+  },
+  {
+    id: "3",
+    title: "Build authentication",
+    description: "Implement login functionality.",
+    priority: "medium",
+    status: "in-progress",
+    dueDate: "2026-11-05",
+  },
+  {
+    id: "4",
+    title: "Create API endpoints",
+    description: "Build task management APIs.",
+    priority: "high",
+    status: "in-progress",
+    dueDate: "2026-11-06",
+  },
+  {
+    id: "5",
+    title: "Initialize repository",
+    description: "Configure Git repository.",
+    priority: "low",
+    status: "completed",
+    dueDate: "2026-10-29",
+  },
+];
